@@ -12,7 +12,11 @@ Placing the provided debug.cfg in /var/flash/debug.cfg on your FritzBox will rep
  * cp /var/tmp/debug.cfg /var/flash/debug.cfg
  * /sbin/reboot
  * Disable Telnet on your box (dial #96*8* on a connected phone)
- 
+
+**Caveats**
+
+Some FritBox-devices don't support wget for https-URLs. In that case download the file and place it on your own http-server. Or download it and use "nvi /var/flash/debug.cfg" and paste the contents of the file.
+
 **Known working devices**
  * FritzBox 7360 MNet-Edition
  * If you tried this and it worked, please leave us a message!
